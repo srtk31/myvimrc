@@ -1,0 +1,12 @@
+set fenc=utf-8
+
+set number
+set cursorline
+
+set expandtab
+set tabstop=2
+
+syntax on
+
+"<C-s>で保存を行う"
+inoremap <C-s> <Esc>:w<CR>
