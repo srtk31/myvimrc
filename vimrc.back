@@ -10,3 +10,7 @@ syntax on
 
 "<C-s>で保存を行う"
 inoremap <C-s> <Esc>:w<CR>
+
+"括弧の補完
+inoremap ( () <Left>
+inoremap { {} <Left>
