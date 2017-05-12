@@ -15,4 +15,4 @@ inoremap <C-s> <Esc>:w<CR>
 "括弧の補完
 inoremap ( ()<Left>
 inoremap { {}<Left>
-inoremap < <><Left>
+inoremap [ []<Left>
